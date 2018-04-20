@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<!--网页标题，显示在标题栏-->
+<head>
+	<meta charset="utf-8">
+	<title>综合练习3</title>
+	<link rel="stylesheet" href="./9.综合练习3.css">
+</head>
+<!--网页主体内容-->
+<body>
+	<!--页眉，页面显示中最上面的部分-->
+	<header class="head bg-orange">
+		<!--页眉的导航栏-->
+		<nav class="center-width">
+			<a href="#" class="nav-picture active">图片</a>
+			<a href="#" class="nav-article">文章</a>
+		</nav>
+	</header>
+	<!--网页中部显示的内容-->
+	<div class="body center-width">
+		<!--导航指向图片模块的页面内容-->
+		<section class="image">
+			<!--图片页面中内容的格局分上下两块分布，一块为横幅-->
+			<section class="banner">
+				<!--用图片作为横幅，alt：如果无法显示图像，浏览器将显示替代文本-->
+				<img src="http://resource.haorenao.cn/back.jpg" alt="">
+				<!--横幅图片中的两行文字-->
+				<p class="my-world">
+					<span>
+						我，你，世界
+					</span>
+					<!--一次换行-->
+					<br/>
+					<span class="small-size">
+						This is a pure world of my own
+					</span>
+				</p>
+			</section>
+			<!--图片页面中内容的格局分上下两块分布，一块为横幅下的图片们-->
+			<section class="img-list">
+				<p>alt 属性是一个必需的属性，它规定在图像无法显示时的替代文本。</p>
+				<p>假设由于下列原因用户无法查看图像，alt 属性可以为图像提供替代的信息。</p>
+				<img src="http://img.sc115.com/uploads/shows/69/20120313203735543.jpg" alt="">
+				<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1819806673,234865551&fm=27&gp=0.jpg" alt="">
+				<img src="http://img.sc115.com/uploads/shows/69/20120313203735532.jpg" alt="">
+			</section>
+		</section>
+		<!--导航指向文章模块的页面内容-->
+		<section class="article">
+			文章模块
+		</section>
+	</div>
+	<!--页脚，在网页最下方的部分-->
+	<footer class="footer bg-orange">
+		页脚
+	</footer>
+</body>
+</html>
